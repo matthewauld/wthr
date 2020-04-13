@@ -5,8 +5,11 @@ A simple package to get the current weather conitions, forecast, and alerts from
 
 ## Installation
 
-With pip:
-```pip3 install wthr```
+Run
+```git clone https://github.com/matthewauld/wthr
+cd wthr
+sudo python3 setup.py install
+```
 Verified to work on Ubuntu
 
 

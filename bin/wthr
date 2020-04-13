@@ -44,6 +44,7 @@ def print_weather(args):
     # quit if no language or config defined
     if args.region_id is None or args.province is None:
         print("No provice or region_id selected. Either pass -r and -p arguments or set up defaults by running 'wthr --config'")
+        return
     lang = 'e'
     if args.francais:
         lang = 'f'
